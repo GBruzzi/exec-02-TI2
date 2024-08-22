@@ -22,7 +22,7 @@ public class Aplicacao {
             System.out.println("5 - Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1:
@@ -36,7 +36,7 @@ public class Aplicacao {
                 case 2:
                     System.out.print("Digite o código do time: ");
                     int codigo = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a nova linha
+                    scanner.nextLine(); 
 
                     System.out.print("Digite o nome do time: ");
                     String nome = scanner.nextLine();
@@ -69,7 +69,7 @@ public class Aplicacao {
                 case 4:
                     System.out.print("Digite o código do time a ser atualizado: ");
                     codigo = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a nova linha
+                    scanner.nextLine(); 
 
                     System.out.print("Digite o novo nome do time: ");
                     nome = scanner.nextLine();
